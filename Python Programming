@@ -1,0 +1,17 @@
+Name1=input("Enter First Name: ")
+Name2=input("Enter Second Name: ")
+x=Name1.capitalize()
+y=Name2.capitalize()
+print("Name: ",x+" "+y)
+Phno=input("Enter Mobile Number: ")
+length=len(Phno)
+if length==10 and Phno.isnumeric():
+  print("Phone Number: ",Phno)
+else:
+  print("InValid Phno")
+Email=input("Enter Mail id: ")
+
+if Email.endswith("@gmail.com"):
+  print("Mail id: ",Email)
+else:
+  print("Enter Valid Mail id") 
